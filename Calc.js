@@ -13,7 +13,7 @@ function calc(a,b,c) {
         return (b % c);
     } else if (a == "exp") {
         return (b ** c);
-    } else if (a !== "sum" || a !== "sub" || a !== "divide" || a !== "multip" || a !== "rem" || a !== "exp") {
+    } else {
         return alert("unknown operation");
     }
 }
